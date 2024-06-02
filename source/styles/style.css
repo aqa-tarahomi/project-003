@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: main-font;
-    src: url(../Fonts/english/static/RobotoCondensed-Regular.ttf) format(ttf);
+    src: url(../Fonts/english/static/RobotoCondensed-Regular.ttf) format("ttf");
 }
 
 body {

@@ -13,7 +13,7 @@ function change(){
 const pain= document.getElementById("pain");
   function myFunction(x) {
     if (x.matches) {
-            pain.setAttribute("class","btn fa-solid fa-user")
+            pain.setAttribute("class","btn bi bi-person-fill")
             pain.innerHTML=""
           } else {
               pain.setAttribute("class","btn me-5")
