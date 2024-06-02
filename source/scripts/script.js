@@ -11,18 +11,20 @@ function change(){
     }
 }
 const pain= document.getElementById("pain");
-const x = window.matchMedia("(max-width: 768px)")
-function myFunction(x) {
+  function myFunction(x) {
     if (x.matches) {
-      pain.setAttribute("class","btn fa-solid fa-user")
-      pain.innerHTML=""
-    } else {
-        pain.setAttribute("class","btn me-5")
-        pain.innerHTML="Login"
-    }
+            pain.setAttribute("class","btn fa-solid fa-user")
+            pain.innerHTML=""
+          } else {
+              pain.setAttribute("class","btn me-5")
+               pain.innerHTML="Login"
+           }
   }
   
+  var x = window.matchMedia("(max-width: 768px)")
   
-  x.addEventListener("change", function() {
+  myFunction(x);
+  
+  x.addEventListener("load", function() {
     myFunction(x);
   });
