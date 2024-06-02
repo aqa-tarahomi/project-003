@@ -1,0 +1,32 @@
+@media (max-width:768px){
+    .navbar-main{
+        width: 92% !important;
+        padding: 0 !important;
+        margin-right: 0 !important;
+        border-bottom: 0 !important;
+    }
+    .about-text-1{
+        border: 0;
+
+    }
+    .about-text-2{
+        border: 0;
+        border-top: 2px solid #495057;
+    }
+    body{
+        background-size: 5%;
+        width: 100%;
+    }
+    .background-image-box{
+        width: 92%;
+    }
+    .navbar-nav{
+        border: 1px gray solid;
+        height: 100%;
+        margin: 0 15px;
+    }
+    .offcanvas{
+        width: 100% !important;
+        background-color: var(--offcanvas-color);
+    }
+}
