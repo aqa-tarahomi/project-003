@@ -25,6 +25,6 @@ const pain= document.getElementById("pain");
   
   myFunction(x);
   
-  x.addEventListener("load", function() {
+  x.addEventListener("change", function() {
     myFunction(x);
   });
