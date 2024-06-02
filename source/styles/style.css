@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: main-font;
+    src: url(../Fonts/english/static/RobotoCondensed-Regular.ttf) format(ttf);
+}
+
 body {
     background-color: var(--bg-color);
     background-image: url(../gallery/1.png);
@@ -14,6 +19,8 @@ body {
     width: 96%;
     margin-left:auto;
     transition: all 0.5s;
+    font-family: main-font;
+
 }
 .background-image-box{
     height: 450px;
