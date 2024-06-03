@@ -29,4 +29,9 @@
         width: 100% !important;
         background-color: var(--offcanvas-color);
     }
+    .background-image-box{
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
