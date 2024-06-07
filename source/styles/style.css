@@ -28,41 +28,23 @@ body {
     background-size: cover;
 }
 
-.main-blue{
-    color: var(--light-blue);
+.secondary-color{
+    color: var(--secondary);
 }
-.main-yellow{
-    color: var(--yellow);
+.primary-color{
+    color: var(--primary);
 }
-.main-purple{
-    color: var(--purpule);
+.tertiary-color{
+    color: var(--tertiary);
 }
 .nav-link{
-    color: var(--yellow);
+    color: yellow;
 }
 .nav-link:hover{
-    color: var(--purpule);
+    color: var(--tertiary);
 }
 .active{
-    color: var(--light-blue) !important;
-}
-.about-text-1{
-    border: 2px  #495057 solid;
-    border-bottom: 0;
-    border-left: 0;
-}
-.about-text-2{
-    color: var(--yellow);
-    border: 2px  #495057 solid;
-    border-bottom: 0;
-    border-right: 0;
-}
-.btn-more{
-    border: 1px solid var(--light-blue);
-}
-.btn-more:hover{
-    background-color: var(--purpule) !important;
-    border: 1px solid var(--purpule) !important;
+    color: var(--secondary) !important;
 }
 .form-control::placeholder{
     color: #707070;
@@ -81,10 +63,10 @@ body {
 }
 .introduction-title{
     font-size: 80px;
-    color: var(--purpule);
+    color: purple;
 }
 .introduction-title u{
-    color: var(--light-blue);
+    color: yellow;
 }
 .introduction-subtitle{
     font-size: 2rem;
@@ -99,7 +81,7 @@ body {
     color: white;
 }
 .nav-icons:hover{
-    color: var(--yellow);
+    color: var(--primary);
 }
 main{
     background-image: url(../gallery/3.png);

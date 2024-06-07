@@ -1,15 +1,15 @@
 const theme_icon = document.getElementById("theme-switch-icon")
-function change() {
-  if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
-    document.documentElement.setAttribute('data-bs-theme', 'light')
-    theme_icon.setAttribute("class", "bi bi-sun-fill")
-  }
+// function change() {
+//   if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+//     document.documentElement.setAttribute('data-bs-theme', 'light')
+//     theme_icon.setAttribute("class", "bi bi-sun-fill")
+//   }
 
-  else {
-    document.documentElement.setAttribute('data-bs-theme', 'dark')
-    theme_icon.setAttribute("class", "bi bi-moon-stars-fill text-info")
-  }
-}
+//   else {
+//     document.documentElement.setAttribute('data-bs-theme', 'dark')
+//     theme_icon.setAttribute("class", "bi bi-moon-stars-fill text-info")
+//   }
+// }
 
 const pain = document.getElementById("pain");
 function myFunction(x) {
