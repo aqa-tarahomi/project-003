@@ -4,22 +4,19 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: main-font;
-    src: url(../Fonts/english/static/RobotoCondensed-Regular.ttf) format("ttf");
-}
-
 body {
-    background-color: var(--bg-color);
+    height: 100vh;
+    background-color: var(--bg-color) !important;
     background-image: url(../gallery/1.png);
     background-repeat: no-repeat;
     background-position: top left;
     background-attachment: fixed;
-    background-size: 2%;
-    width: 96%;
+    background-size: 1.5%;
+    width: 98%;
     margin-left:auto;
     transition: all 0.5s;
-    font-family: main-font;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
 }
 .background-image-box{
     height: 450px;
@@ -76,4 +73,39 @@ body {
 .nav-text:hover{
     transition: all 0.4s;
     text-shadow: var(--text-shadow);
+}
+@keyframes trhead {
+    0%{transform: translateY(0)}
+    50%{transform: translateY(-20px)}
+    1000%{transform: translateY(0)}
+}
+.introduction-title{
+    font-size: 80px;
+    color: var(--purpule);
+}
+.introduction-title u{
+    color: var(--light-blue);
+}
+.introduction-subtitle{
+    font-size: 2rem;
+}
+.nav-icons{
+    background-color: #414141;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    transition: all .3s;
+    width: auto;
+    color: white;
+}
+.nav-icons:hover{
+    color: var(--yellow);
+}
+main{
+    background-image: url(../gallery/3.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-attachment: fixed;
+    background-size: 800px 600px;
+    height: 80vh;
 }

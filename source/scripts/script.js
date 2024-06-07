@@ -1,5 +1,4 @@
 const theme_icon = document.getElementById("theme-switch-icon")
-const intro = document.getElementById("introduction-header")
 function change() {
   if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
     document.documentElement.setAttribute('data-bs-theme', 'light')
@@ -16,7 +15,6 @@ const pain = document.getElementById("pain");
 function myFunction(x) {
   if (x.matches) {
     pain.setAttribute("class", "btn bi bi-person-fill")
-    intro.classList.replace("display-1","display-2")
     pain.innerHTML = ""
   } else {
     pain.setAttribute("class", "btn me-5")
@@ -24,7 +22,7 @@ function myFunction(x) {
   }
 }
 
-var x = window.matchMedia("(max-width: 768px)")
+var x = window.matchMedia("(max-width: 992px)")
 
 myFunction(x);
 

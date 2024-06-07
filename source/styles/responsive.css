@@ -1,21 +1,13 @@
 @media (max-width:768px){
     .navbar-main{
-        width: 92% !important;
+        width: 97% !important;
         padding: 0 !important;
         margin-right: 0 !important;
         border-bottom: 0 !important;
     }
-    .about-text-1{
-        border: 0;
-
-    }
-    .about-text-2{
-        border: 0;
-        border-top: 2px solid #495057;
-    }
     body{
-        background-size: 5%;
-        width: 100%;
+        background-size: 5% ,100px 50px !important;
+        width: 95%;
     }
     .background-image-box{
         width: 92%;
@@ -29,9 +21,39 @@
         width: 100% !important;
         background-color: var(--offcanvas-color);
     }
-    .background-image-box{
-        background-attachment: scroll;
-        background-position: center;
-        background-repeat: no-repeat;
+    main{
+        background-image: url(../gallery/new3.png);
+        justify-content: center;
+        background-size: 410px;
+        background-position: left bottom ;
+        height: 89vh;
+        color: ghostwhite !important;
+    }
+    .introduction{
+        margin: 0 !important;
+        text-align: center;
+    }
+    .introduction-title{
+        font-size: 50px;
+        margin-left: 0 !important;
+    }
+    .introduction-subtitle{
+        font-size: 20px;
+        margin-left: 0 !important;
+    }
+    .social-media{
+        margin-left: 0 !important;
+    }
+    .icon-section-header{
+        margin-left: 0 !important;
+    }
+    .icon-section{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .navbar-icons{
+        margin-left: auto;
     }
 }
