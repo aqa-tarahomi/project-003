@@ -7,3 +7,12 @@
     --text-shadow:3px 3px 4px #b6b6b6;
     --bg-image:url(../gallery/bg-02.jpg);
 }
+[data-bs-theme="light"] {
+    --primary:#198754;
+    --secondary:#9cdcfe;
+    --tertiary:#b25fbe;
+    --bg-color:#e7e7e7;
+    --offcanvas-color:#1f1f1ff0;
+    --text-shadow:3px 3px 4px #b6b6b6;
+    --bg-image:url(../gallery/bg-02.jpg);
+}
