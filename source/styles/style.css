@@ -38,7 +38,6 @@ body {
     color: var(--tertiary);
 }
 .nav-link{
-    color: yellow;
 }
 .nav-link:hover{
     color: var(--tertiary);
@@ -63,14 +62,20 @@ body {
 }
 .introduction-title{
     font-size: 80px;
-    color: purple;
+    color: ghostwhite;
+    font-weight: 650;
 }
 .introduction-title u{
-    color: yellow;
+    color: #ffee00;
 }
 .introduction-subtitle{
     font-size: 2rem;
+    font-weight: 650;
 }
+.icon-section-header{
+    font-weight: 650;
+}
+
 .nav-icons{
     background-color: #414141;
     height: 50px;
@@ -90,4 +95,5 @@ main{
     background-attachment: fixed;
     background-size: 800px 600px;
     height: 80vh;
+    font-weight:900 !important;
 }
